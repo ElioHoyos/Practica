@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Samsung SM-J410G</SelectedDevice>
+    <SelectedDevice>Samsung SM-A217M</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Samsung SM-J410G %28Android 8.1 - API 27%29</ActiveDebugProfile>
+    <ActiveDebugProfile>Samsung SM-A217M %28Android 12.0 - API 31%29</ActiveDebugProfile>
   </PropertyGroup>
 </Project>
