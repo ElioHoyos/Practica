@@ -15,7 +15,8 @@
                ></Image>
             </Grid>
             <Label Text="Luis Angel"
-                   TextColor="White"/>
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
             <Frame TranslationY="602">
 
                 <Label Text="Somos una agencia creativa galardonada, dedicada al mejor resultado en diseño web,promoción,consultoría de negocios y marketing."
