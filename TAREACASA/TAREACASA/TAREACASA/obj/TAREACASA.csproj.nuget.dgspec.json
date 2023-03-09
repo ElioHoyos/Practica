@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj": {}
+    "D:\\MLORD\\Documents\\GitHub\\Practica\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj": {
+    "D:\\MLORD\\Documents\\GitHub\\Practica\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj",
+        "projectUniqueName": "D:\\MLORD\\Documents\\GitHub\\Practica\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj",
         "projectName": "TAREACASA",
-        "projectPath": "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj",
-        "packagesPath": "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\TAREACASA\\TAREACASA\\TAREACASA\\obj\\",
+        "projectPath": "D:\\MLORD\\Documents\\GitHub\\Practica\\TAREACASA\\TAREACASA\\TAREACASA\\TAREACASA.csproj",
+        "packagesPath": "C:\\Users\\frefi\\.nuget\\packages\\",
+        "outputPath": "D:\\MLORD\\Documents\\GitHub\\Practica\\TAREACASA\\TAREACASA\\TAREACASA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\INSTRUCTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frefi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
