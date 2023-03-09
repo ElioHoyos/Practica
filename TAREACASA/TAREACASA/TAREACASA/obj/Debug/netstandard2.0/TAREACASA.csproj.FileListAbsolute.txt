@@ -15,3 +15,20 @@ C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\nets
 C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\refint\TAREACASA.dll
 C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.pdb
 C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\ref\TAREACASA.dll
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.dll
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\refint\TAREACASA.dll
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.pdb
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\bin\Debug\netstandard2.0\TAREACASA.deps.json
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\bin\Debug\netstandard2.0\TAREACASA.dll
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\bin\Debug\netstandard2.0\TAREACASA.pdb
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.csproj.AssemblyReference.cache
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\LoginView.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\PRINCIPALVIEW.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\RegistrarView.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.AssemblyInfoInputs.cache
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.AssemblyInfo.cs
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.csproj.CoreCompileInputs.cache
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\danye\OneDrive\Documentos\Proyecto xamarin\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\ref\TAREACASA.dll

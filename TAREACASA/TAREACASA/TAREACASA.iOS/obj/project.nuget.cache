@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HA0XumhW4RlvPi9APy1nivnDLclhqdPT3VIsGymzzJkHJXOJuAEYxcGk9Lq0eQfHK8PKOKs7LFvcQTEKAstM6w==",
+  "dgSpecHash": "bkuWrf1R3UQH+e/tEoEvZ7GymDG30zI3iExqM67NsHHHpib3BY6E5/DkyAWRbaxZ2vMzlsWyjsUWo41Fld+/Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\TAREACASA\\TAREACASA\\TAREACASA.iOS\\TAREACASA.iOS.csproj",
+  "projectFilePath": "C:\\Users\\danye\\OneDrive\\Documentos\\Proyecto xamarin\\Practica\\TAREACASA\\TAREACASA\\TAREACASA.iOS\\TAREACASA.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\danye\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\danye\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\danye\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

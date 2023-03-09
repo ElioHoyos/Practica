@@ -4,9 +4,9 @@
              x:Class="TAREACASA.view.PRINCIPALVIEW">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label HorizontalOptions="CenterAndExpand" Text="Menu Principal"  FontSize="25" TextColor="White"/>
+            <Label Text="Bienvenido al sistema :D" FontSize="25" HeightRequest="200" Padding="70" TextColor="GreenYellow" />
+            <Button x:Name="Boton2" Text="Regresar a Inicio" TextColor="White" Clicked="Boton2_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

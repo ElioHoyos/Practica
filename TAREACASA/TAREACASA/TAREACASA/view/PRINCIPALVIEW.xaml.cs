@@ -16,5 +16,10 @@ namespace TAREACASA.view
         {
             InitializeComponent();
         }
+
+        private async void Boton2_Clicked(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new LoginView());
+        }
     }
 }
