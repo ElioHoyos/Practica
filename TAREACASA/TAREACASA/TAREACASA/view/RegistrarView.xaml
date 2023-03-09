@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TAREACASA.view.RegistrarView">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Margin="0,20,0,20" Source="xamarinlogo.png" Aspect="AspectFit" HeightRequest="180" WidthRequest="80"></Image>
+            <Frame Grid.Row="1" Margin="20,30" BorderColor="#1C375C" HasShadow="True"  CornerRadius="50" >
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="20" Padding="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0"  Text="SENATI" FontSize="24" FontAttributes="Bold" TextColor="#1C375C" HorizontalOptions="CenterAndExpand"></Label>
+                    <Label Grid.Row="1" Margin="0,-15,0,0" Text="Registrate YA!" TextColor="#1C375C"  HorizontalOptions="CenterAndExpand"></Label>
+                    <Entry Grid.Row="2" Placeholder="Nombre" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+                    <Entry Grid.Row="3" Placeholder="Apellido" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+                    <Entry Grid.Row="4" Placeholder="Usuario" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+                    <Entry Grid.Row="5" Placeholder="Contraseña" IsPassword="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+                    <Entry Grid.Row="6" Placeholder="Correo" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+                    <Entry Grid.Row="7" Placeholder="Direccion" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+                    <Button Grid.Row="8" Text="Registrar" BackgroundColor="#1C375C" CornerRadius="20"></Button>
+          
+
+                </Grid>
+            </Frame>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
