@@ -31,7 +31,7 @@
                     <Entry Grid.Row="5" Placeholder="Contraseña" IsPassword="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
                     <Entry Grid.Row="6" Placeholder="Correo" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
                     <Entry Grid.Row="7" Placeholder="Direccion" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
-                    <Button Grid.Row="8" Text="Registrar" BackgroundColor="#1C375C" CornerRadius="20"></Button>
+                    <Button Grid.Row="8" Text="Registrar" BackgroundColor="#1C375C" CornerRadius="20" x:Name="Button1" Clicked="Button1_Clicked"></Button>
           
 
                 </Grid>
