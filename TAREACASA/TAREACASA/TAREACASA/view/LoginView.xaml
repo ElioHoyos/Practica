@@ -25,8 +25,8 @@
                 <Label Grid.Row="2" Margin="0,-15,0,0" Text="Login" TextColor="#1C375C"  HorizontalOptions="CenterAndExpand"></Label>
                 <Entry Grid.Row="3" Placeholder="Username" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
                 <Entry Grid.Row="4" Placeholder="Password" IsPassword="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
-                <Button Grid.Row="5" Text="Iniciar Session" BackgroundColor="#1C375C" CornerRadius="20"></Button>
-                <Button Grid.Row="8" Text="Crear Cuenta!!" BackgroundColor="Transparent" CornerRadius="20"></Button>
+                <Button Grid.Row="5" Text="Iniciar Session" BackgroundColor="#1C375C" CornerRadius="20"  x:Name="Button1" Clicked="Button1_Clicked"></Button>
+                <Button Grid.Row="8" Text="Crear Cuenta!!" BackgroundColor="Transparent" CornerRadius="20" x:Name="Button2" Clicked="Button2_Clicked"></Button>
               
                 <StackLayout Grid.Row="7" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40">
                     <Image  WidthRequest="30"
