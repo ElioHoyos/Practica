@@ -1,12 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.PRINCIPALVIEW">
+             x:Class="TAREACASA.view.PRINCIPALVIEW"
+             BackgroundColor="#696969"
+             HeightRequest="80"
+             >
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid BackgroundColor="#1C375C" Padding="34">
+           
+             
+                <Label Text="Welcome to SENATI" HorizontalTextAlignment="Center" TextColor="White" FontSize="34" TranslationY="0" TranslationX="0"/>
+          
+            </Grid>
+ 
+       
+     
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
