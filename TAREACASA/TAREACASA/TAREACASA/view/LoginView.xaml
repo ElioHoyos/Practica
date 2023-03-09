@@ -4,9 +4,12 @@
              x:Class="TAREACASA.view.LoginView">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid BackgroundColor="#ffff"></Grid>
+            <Label HorizontalOptions="CenterAndExpand" Text="BIENVENIDO AL LOGIN" TextColor="Gray" FontSize="Body" HeightRequest="80" Padding="20"/>
+
+            <Entry Placeholder="Correo Electronico:__________________________________" TextColor="Black" PlaceholderColor="Aqua"></Entry>
+            <Entry Placeholder="Contraseña:__________________________________" TextColor="Black" PlaceholderColor="Aqua"></Entry>
+            <Button x:Name="Button1" Text="Iniciar Sesión" TextColor="Blue" Clicked="Button1_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
