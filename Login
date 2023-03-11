@@ -1,0 +1,33 @@
+
+      <Image Source="imagen.jpg" Aspect="AspectFill" />
+      <Boxview Color="#e0699d" Opacity="0.8" />
+       
+      
+       <Grid>
+         <Grid.RowDefinitions>
+            <Row.Definition Height = "Auto"/>
+            <Row.Definition Height ="*" />
+            <Row.Definition Height="Auto2/>
+          <Grid.RowDefinitions>
+          
+         <Image Grid.Row="0" Source="app,png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
+
+         <StackLayout Grid.Row ="1" Padding="30,20">
+           <Entry Placeholder = "Correo" PlaceholderColor="white"/>
+           <Entry Placeholder ="Password" PlaceholderColor="White" BorderRadius="20" TextColor="e0699d"/>
+           <Button Text="Iniciar Sesión" BackgroundColor="White" BorderRadius="20" TextColor="#e0699d"/>
+           <Stacklayout Orientation="Horizontal">
+               <label Text="¿recuperar contraseña?"/>
+               <label Text="Registrate" HorizontalOptions="EndAndExpand" FontAttributes ="Bold"/>
+           </StackLayout>
+           
+           <StackLayout Grid.Row="2" HorizontalOptions="center" Margin="0,0,0,50">
+             <Label Text="Iniciar sesión con" HorizontalOptions="Center" />
+            <StackLayout Orientation="Horizontal">
+              <Image Grid.Row ="0" Source="app.png" WidthRequest="45" />            
+              <Image Grid.Row ="0" Source="app.png" WidthRequest="45" />
+               <Image Grid.Row ="0" Source="app.png" WidthRequest="45" />
+             </StackLayout>
+           </StackLayout>
+      </Grid>
+
