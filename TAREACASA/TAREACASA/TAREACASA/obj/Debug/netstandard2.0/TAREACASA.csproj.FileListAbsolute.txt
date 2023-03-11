@@ -15,3 +15,6 @@ C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\nets
 C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\refint\TAREACASA.dll
 C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.pdb
 C:\Users\INSTRUCTOR\Documents\CLASE\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\ref\TAREACASA.dll
+C:\Users\Bemil\Documents\GitHub\Bettyclo\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.dll
+C:\Users\Bemil\Documents\GitHub\Bettyclo\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\refint\TAREACASA.dll
+C:\Users\Bemil\Documents\GitHub\Bettyclo\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.pdb

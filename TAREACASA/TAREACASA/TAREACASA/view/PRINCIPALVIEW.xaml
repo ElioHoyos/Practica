@@ -4,9 +4,11 @@
              x:Class="TAREACASA.view.PRINCIPALVIEW">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid BackgroundColor="#ffffff" Padding="34">
+
+                <Label Grid.Row="0"  Text="Menú principal Senati" FontSize="24" FontAttributes="Bold" TextColor="#1C375C" HorizontalOptions="CenterAndExpand"></Label>
+
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
