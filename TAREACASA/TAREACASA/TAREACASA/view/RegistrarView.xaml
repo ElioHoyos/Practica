@@ -2,11 +2,52 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TAREACASA.view.RegistrarView">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <StackLayout BackgroundColor="AntiqueWhite">
+            <Frame BackgroundColor="#FDFEFE"  CornerRadius="4">
+                <Label Text="Bienvenido a Registros!" HorizontalTextAlignment="Center" TextColor="#DB4118" FontSize="25"  
+                       FontAttributes="Bold"/>
+            </Frame>
+
+            <Grid ColumnDefinitions="*,*">
+
+                <StackLayout Grid.Column="0" Margin="20" HorizontalOptions="Center">
+                    <Label Text="Nombre:" Padding="0,25,0,0" TextColor="Black" ></Label>
+                    <Label Text="Apellido:" Padding="0,25,0,0" TextColor="Black"></Label>
+                    <Label Text="Usuario:" Padding="0,25,0,0" TextColor="Black"></Label>
+                    <Label Text="Contraseña:" Padding="0,25,0,0" TextColor="Black"></Label>
+                    <Label Text="Correo:" Padding="0,25,0,0" TextColor="Black"></Label>
+                    <Label Text="Direccion:" Padding="0,25,0,0" TextColor="Black"></Label>
+                    <Label Text="Telefono:" Padding="0,24,0,0" TextColor="Black"></Label>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Margin="0,20,0,0">
+
+
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+                    <Entry Grid.Column="1" TextColor="Black"></Entry>
+
+                </StackLayout>
+            </Grid>
+            <Button x:Name="Button4"
+                        Clicked="Button4_Clicked"
+                        Text="Regresar"
+                        CornerRadius="15"
+                        Margin="60"
+                        BackgroundColor="#64B768">
+
+            </Button>
+
+            <Label Text="Welcome to Loritosorf_Cobranzas.!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                TextColor="Gray"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

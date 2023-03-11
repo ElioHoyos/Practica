@@ -3,10 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TAREACASA.view.PRINCIPALVIEW">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        
+        <StackLayout BackgroundColor="White">
+            <Frame >
+                <Label Text="Sistema de Cobranzas"
+                       TextColor="#DB4118"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       HorizontalOptions="CenterAndExpand"></Label>
+            </Frame>
+            <Label Text="Bienvenidos a loritoSorft!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                TextColor="#64B768"
+                FontSize="40"
+                HorizontalTextAlignment="Center"/>
+             
+            <Button x:Name="Button3"
+                    Clicked="Button3_Clicked"
+                    Text="Regrersar"
+                    BackgroundColor="#F4A38F "
+                    CornerRadius="20"
+                    Margin="40"></Button>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

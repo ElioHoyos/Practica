@@ -16,5 +16,10 @@ namespace TAREACASA.view
         {
             InitializeComponent();
         }
+        public async void Button3_Clicked(object sender, EventArgs e)
+
+        {
+            await Application.Current.MainPage.Navigation.PopModalAsync();
+        }
     }
 }

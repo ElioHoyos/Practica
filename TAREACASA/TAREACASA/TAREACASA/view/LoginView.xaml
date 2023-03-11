@@ -3,10 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TAREACASA.view.LoginView">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="White">
+            <Frame BackgroundColor="#FDFEFE" 
+                   Padding="10" CornerRadius="0">
+                
+                <Label Text="Login "  
+                       TextColor="#DB4118" 
+                       FontSize="25"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"/>
+            </Frame>
+            <Grid Margin="40" >
+
+                <StackLayout >
+                  
+                   <Image Source="https://ii.ct-stc.com/3/logos/empresas/2021/04/16/2c45e9bdb81a402ea94d081918393thumbnail.jpg" ></Image>
+                                   
+                    <Label Text="Correo:" 
+                           TextColor="Gray"></Label>
+                    <Frame Padding="8" HorizontalOptions="FillAndExpand">
+                        <Entry Keyboard="Email" 
+                           TextColor="Black"
+                           Placeholder="usuario@gmail.com"
+                           PlaceholderColor="#DB4118"></Entry>
+                    </Frame>
+
+                    <Label Text="Contraseña:"
+                           TextColor="Gray"></Label>
+
+                    <Frame Padding="8" HorizontalOptions="FillAndExpand">
+                        <Entry Keyboard="Text" 
+                               TextColor="Black"
+                               Placeholder="*******"
+                               PlaceholderColor="#DB4118"
+                               IsPassword="True"/>
+
+                    </Frame>
+                    
+                    <Button x:Name="Button1" 
+                    HorizontalOptions="FillAndExpand"
+                    Text="Iniciar sesion"
+                    Clicked="Button1_Clicked"
+                    BackgroundColor="#64B768"
+                    CornerRadius="100"
+                    Margin="0,90,0,0"      
+                    ></Button>
+                    
+                    <Button x:Name="Button2"
+                    HorizontalOptions="FillAndExpand"
+                    Text="Registrarse"
+                    Clicked="Button2_Clicked"
+                    BackgroundColor="#64B768"
+                    CornerRadius="100"></Button>
+
+                </StackLayout>
+
+            </Grid>
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
