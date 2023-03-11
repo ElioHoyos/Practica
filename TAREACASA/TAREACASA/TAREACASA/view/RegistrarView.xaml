@@ -1,12 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.RegistrarView">
+             x:Class="TAREACASA.view.RegistrarView"
+             BackgroundImageSource="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid BackgroundColor="#2196F3" Padding="24">
+                <Label Text="LM-Company" HorizontalTextAlignment="Center" TextColor="White" FontSize="20" TranslationY="-19"/>
+                <Label Text="+51 902767217" HorizontalTextAlignment="Start" TextColor="White" FontSize="12" TranslationY="20" TranslationX="50"/>
+                <Label Text="1386523@gmail.com" HorizontalTextAlignment="End" TextColor="White" FontSize="12" TranslationY="20" TranslationX="-20"/>
+                <Image Source="https://www.designevo.com/res/templates/thumb_small/tech-square-line-structure-crypto.webp"
+               HeightRequest="50"
+               TranslationX="-165"
+               ></Image>
+            </Grid>
+            <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto">
+                <StackLayout Grid.Row="4">
+                    <Label Text="Registrarse" TextColor="White"   FontSize="25" 
+                           HorizontalTextAlignment="Center"
+                           FontAttributes="Bold"/>
+
+                    <Frame BorderColor="Wheat" BackgroundColor="Transparent"
+                           Margin="15"
+                           Padding="0"
+                           CornerRadius="50">
+
+                        <Frame BorderColor="#2196F3" BackgroundColor="Transparent"
+                               Margin="1" Padding="25,0,25,0" 
+                               HeightRequest="60"
+                               CornerRadius="50">
+                            <Entry TextColor="White"
+                                   FontSize="18"
+                                   Placeholder="Usuario"
+                                   PlaceholderColor="White"/>
+                        </Frame>
+
+                    </Frame>
+                    <Frame BorderColor="Wheat" BackgroundColor="Transparent"
+                           Margin="15"
+                           Padding="0"
+                           CornerRadius="50">
+
+                        <Frame BorderColor="#2196F3" BackgroundColor="Transparent"
+                               Margin="1" Padding="25,0,25,0" 
+                               HeightRequest="60"
+                               CornerRadius="50">
+                            <Entry TextColor="White"
+                                   FontSize="18"
+                                   Placeholder="Correo"
+                                   PlaceholderColor="White"/>
+                        </Frame>
+
+                    </Frame>
+                    <Frame BorderColor="Wheat" BackgroundColor="Transparent"
+                           Margin="15"
+                           Padding="0"
+                           CornerRadius="50">
+
+                        <Frame BorderColor="#2196F3" BackgroundColor="Transparent"
+                               Margin="1" Padding="25,0,25,0" 
+                               HeightRequest="60"
+                               CornerRadius="50">
+                            <Entry TextColor="White"
+                                   FontSize="18"
+                                   Placeholder="Contraseña"
+                                   IsPassword="True"
+                                   PlaceholderColor="White"/>
+                        </Frame>
+
+                    </Frame>
+                    <Frame BorderColor="Wheat" BackgroundColor="Transparent"
+                           Margin="15"
+                           Padding="0"
+                           CornerRadius="50">
+
+                        <Frame BorderColor="#2196F3" BackgroundColor="Transparent"
+                               Margin="1" Padding="25,0,25,0" 
+                               HeightRequest="60"
+                               CornerRadius="50">
+                            <Entry TextColor="White"
+                                   FontSize="18"
+                                   Placeholder="Validar Contraseña"
+                                   PlaceholderColor="White"
+                                   IsPassword="True"/>
+                        </Frame>
+
+                    </Frame>
+                </StackLayout>
+            </Grid>
+            <Button VerticalOptions="CenterAndExpand" TextColor="White"
+                x:Name="Button1" Clicked="Button1_Clicked"
+                HorizontalOptions="Center"
+                TranslationY="12"
+                
+                Text="Registrarse"
+                CornerRadius="15"
+                BorderColor="#2196F3"
+                BorderWidth="2"
+                BackgroundColor="Transparent"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
