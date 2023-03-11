@@ -4,9 +4,16 @@
              x:Class="TAREACASA.view.PRINCIPALVIEW">
     <ContentPage.Content>
         <StackLayout>
+<<<<<<< Updated upstream
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+=======
+            <Label Text="MENU PRINCIPAL" BackgroundColor="Aqua" TextColor="Black" FontAttributes="Bold" FontSize="Title" HorizontalTextAlignment="Center"/>
+            <Label Text="HOLA, SEA BIENVENIDO(A) A UN NUEVO MUNDO!" FontAttributes="Bold" FontSize="Small" HorizontalTextAlignment="Center"/>
+            <Image Source="https://acortar.link/rgR4uA"/>
+            <Button x:Name="Button3" Text="VOLVER A INICIO" CornerRadius="10" BorderColor="#1DE251" BackgroundColor="#4DD8DF" FontAttributes="Bold" Clicked="Button3_Clicked"/>
+>>>>>>> Stashed changes
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

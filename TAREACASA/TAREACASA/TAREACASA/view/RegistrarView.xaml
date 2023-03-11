@@ -3,10 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TAREACASA.view.RegistrarView">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid BackgroundColor="#D7FA7D">
+            <Image Source="https://acortar.link/uz1nZL" Margin="156,-690,156,0"/>
+            <StackLayout>
+                <Label Text="REGISTRO" TextColor="Black" Background="Aqua" FontSize="Title" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <Frame CornerRadius="20" Margin="20,110,20,-20">
+                    <Entry Placeholder="NOMBRE:" TextColor="Black" PlaceholderColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="20" Margin="20,20,20,-20">
+                    <Entry Placeholder="APELLIDO:" TextColor="Black" PlaceholderColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="20" Margin="20,20,20,-20">
+                    <Entry Placeholder="USUARIO:" TextColor="Black" PlaceholderColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="20" Margin="20,20,20,-20">
+                    <Entry Placeholder="CONTRASEÑA:" TextColor="Black" PlaceholderColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="20" Margin="20,20,20,-20">
+                    <Entry Placeholder="CORREO:" TextColor="Black" PlaceholderColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="20" Margin="20,20,20,-20">
+                    <Entry Placeholder="DIRECCION:" TextColor="Black" PlaceholderColor="Black"/>
+                </Frame>
+
+                <Button x:Name="ButtonRe" Text="REGISTRARSE" CornerRadius="10" BorderColor="#1DE251" BackgroundColor="#4DD8DF" Margin="20,50,20,0"/>
+
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
