@@ -16,5 +16,20 @@ namespace TAREACASA.view
         {
             InitializeComponent();
         }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            String sCorreo = txtCorreo.Text;
+            String sContraseña = txtContraseña.Text;
+
+            if ((sCorreo == "Juan@gmail.com") && (sContraseña == "juan"))
+            {
+                Navigation.PushAsync(new PRINCIPALVIEW());
+            }
+            else
+            {
+                lblResultado.Text = "El correo o contraseña son incorrectos!";
+
+            }
+        }
     }
 }

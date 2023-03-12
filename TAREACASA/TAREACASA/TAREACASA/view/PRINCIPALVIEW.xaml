@@ -4,9 +4,12 @@
              x:Class="TAREACASA.view.PRINCIPALVIEW">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             <Frame BackgroundColor="Turquoise">
+                <Label Text="MENU PRINCIPAL" TextColor="Black"/>
+            </Frame>
+            <Label Text="HOLA BIENVENIDO SEÑOR JUAN" TextColor="Black"/>
+            <Button Text="Registrar" Clicked="Button_Clicked"/>
+            <Label Text="" x:Name="lblResultado" TextColor="Red"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

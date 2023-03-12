@@ -4,9 +4,18 @@
              x:Class="TAREACASA.view.LoginView">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             <Frame BackgroundColor="Azure"
+                   BorderColor="Black"
+                   Margin="20"
+                   CornerRadius="20">
+            <StackLayout>
+                <Label Text="LOGIN" TextColor="Black"/>
+            <Entry Placeholder="Correo" TextColor="Blue" x:Name="txtCorreo"/>
+            <Entry Placeholder="Contraseña" IsPassword="True" x:Name="txtContraseña"  TextColor="Blue"/>
+            <Button Text="Iniciar Sesion" Clicked="Button_Clicked"/>
+                <Label Text="" x:Name="lblResultado" TextColor="Red"/>
+            </StackLayout>
+        </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

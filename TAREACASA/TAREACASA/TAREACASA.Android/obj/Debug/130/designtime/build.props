@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638138699489905087
+_nugetassetstimestamp=638141745739170409
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\instructor\documents\clase\tareacasa\tareacasa\tareacasa.android\tareacasa.android.csproj
+projectfullpath=c:\users\olenka\documents\senati ciclo v\practica\tareacasa\tareacasa\tareacasa.android\tareacasa.android.csproj

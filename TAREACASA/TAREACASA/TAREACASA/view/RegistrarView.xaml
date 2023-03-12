@@ -4,9 +4,23 @@
              x:Class="TAREACASA.view.RegistrarView">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             <Frame BackgroundColor="Turquoise">
+                <Label Text="REGISTRO" TextColor="Black"/>
+            </Frame>
+            <Frame BackgroundColor="Beige"
+                   BorderColor="Black"
+                   Margin="20"
+                   CornerRadius="20">
+                <StackLayout>
+            <Entry Placeholder="Nombre:" TextColor="Indigo" x:Name="txtNombre"/>
+            <Entry Placeholder="Apellido:" TextColor="Indigo" x:Name="txtApellido"/>
+            <Entry Placeholder="Usuario::" TextColor="Indigo" x:Name="txtUsuario"/>
+            <Entry Placeholder="Contraseña:" TextColor="Indigo" x:Name="txtContraseña"/>
+            <Entry Placeholder="Correo:" TextColor="Indigo" x:Name="txtCorreo"/>
+            <Entry Placeholder="Direccion:" TextColor="Indigo" x:Name="txtDireccion"/>
+              </StackLayout>    
+            </Frame>
+            <Button Text="Registrar"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
