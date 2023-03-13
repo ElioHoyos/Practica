@@ -1,27 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.PRINCIPALVIEW"
-             BackgroundImageSource="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
+             x:Class="TAREACASA.view.PRINCIPALVIEW">
     <ContentPage.Content>
-        <StackLayout>
-            <Grid BackgroundColor="#2196F3" Padding="24">
-                <Label Text="LM-Company" HorizontalTextAlignment="Center" TextColor="White" FontSize="20" TranslationY="-19"/>
-                <Label Text="+51 902767217" HorizontalTextAlignment="Start" TextColor="White" FontSize="12" TranslationY="20" TranslationX="50"/>
-                <Label Text="1386523@gmail.com" HorizontalTextAlignment="End" TextColor="White" FontSize="12" TranslationY="20" TranslationX="-20"/>
-                <Image Source="https://www.designevo.com/res/templates/thumb_small/tech-square-line-structure-crypto.webp"
-               HeightRequest="50"
-               TranslationX="-165"
-               ></Image>
-            </Grid>
-            <Label Text="Luis Angel"
-                   TextColor="White"
-                   HorizontalTextAlignment="Center"/>
-            <Frame TranslationY="602">
+        <ScrollView>
+            <!-- Main layout structure-->
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto,*">
+                
+                <!--Grid.ColumnSpan="2"= Sirve para poner en el centro a la imagen-->
+                <Image  Grid.ColumnSpan="2" Source="https://images.vexels.com/media/users/3/142890/isolated/preview/4ea2d7c4bf3cad23a4f18ee58752deb8-logotipo-de-anillos-de-alta-tecnologia.png" 
+                       TranslationY="6" VerticalOptions="Start" Aspect="AspectFit" HeightRequest="280"/>
+                <!-- Frame to achieve the gradient over the image-->
+                <Frame Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" TranslationY="62" HasShadow="False">
+                    <Frame.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="Transparent" Offset="0.6" />
+                            <GradientStop Color="#e4e4e4" Offset="0.9" />
+                        </LinearGradientBrush>
+                    </Frame.Background>s
+                </Frame>
+                <!-- 2. Descripcion -->
+                <Label Grid.ColumnSpan="2" Grid.Row="1" Text="Leer es Fascinnte" Margin="25,-10,0,0" CharacterSpacing="3" 
+                       FontAttributes="Italic" TextColor="#353f5f" FontSize="40"/>
+                <Label  Grid.ColumnSpan="2" Grid.Row="2" Text="World bestsellers, scientific worlds and simply entertaining literature."  
+                        FontSize="20" TextColor="#9196a6" Margin="25,20,0,35"/>
 
-                <Label Text="Somos una agencia creativa galardonada, dedicada al mejor resultado en diseño web,promoción,consultoría de negocios y marketing."
-                   VerticalTextAlignment="Start" TranslationY="-1" WidthRequest="360" HeightRequest="80" TranslationX="8"/>
-            </Frame>
-        </StackLayout>
+                <!-- 3. Cards -->
+                <Frame Grid.Row="3"  BackgroundColor="#3bc4e5" Grid.Column="0" Margin="25"  CornerRadius="20">
+                    <Label TextColor="White" VerticalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                
+                                <Span Text="80K+&#10;" FontAttributes="Bold" FontSize="33"/>
+                                <Span Text="Libros de todos los gustos" FontSize="20"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Frame>
+                
+                <Frame Grid.Row="3" Grid.Column="1" Margin="25"  BackgroundColor="#fe6954" CornerRadius="20">
+                    <Label TextColor="White" VerticalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="12&#10;" FontAttributes="Bold" FontSize="33"/>
+                                <Span Text="Acogedoras salas de lectura" FontSize="19" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Frame>
+                <Frame Grid.Row="4"  BackgroundColor="#3bc4e5" Grid.Column="0" Margin="25"  CornerRadius="20">
+                    <Label TextColor="White" VerticalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="80K+&#10;" FontAttributes="Bold" FontSize="33"/>
+                                <Span Text="Libros de todos los gustos" FontSize="20"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Frame>
+                <!--Grid.Row="4"= Indica en que esta en pocicion vertical ocupando el 4 lugar-->
+                <Frame Grid.Row="4" Grid.Column="1" Margin="25"  BackgroundColor="#fe6954" CornerRadius="20">
+                    <Label TextColor="White" VerticalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="12&#10;" FontAttributes="Bold" FontSize="33"/>
+                                <Span Text="Acogedoras salas de lectura" FontSize="19" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Frame>
+                
+            </Grid>
+            
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>
