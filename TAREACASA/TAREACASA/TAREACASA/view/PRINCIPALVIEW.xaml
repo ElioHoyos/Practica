@@ -5,8 +5,8 @@
              BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
-            <Grid BackgroundColor="Aqua" Padding="20">
-                <Label Text="Pagina Principal " TextColor="Black" HorizontalOptions="Center" />
+            <Grid BackgroundColor="ForestGreen" Padding="20">
+                <Label Text="Menu Principal" HorizontalOptions="Center" FontSize="15" TextColor="White" ></Label>
             </Grid>
             <Label Text="Hola Bienvenido Pedro" TextColor="White" HorizontalOptions="Center"/>
         </StackLayout>

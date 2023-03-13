@@ -5,18 +5,36 @@
              BackgroundColor="Black" >
     <ContentPage.Content>
         <StackLayout>
-            <Image Source=".." WidthRequest="180" HeightRequest="180"></Image>
+            <Grid BackgroundColor="ForestGreen" Padding="20">
+                <Label Text="Login" HorizontalOptions="Center" FontSize="15" TextColor="White" ></Label>
+            </Grid>
+            
+            <Image Source="Login.png" WidthRequest="180" HeightRequest="180"></Image>
 
             <Entry Placeholder="Usuario" TextColor="White" PlaceholderColor="Gray" />
             <Entry Placeholder="Contraseña" IsPassword="True" TextColor="White" PlaceholderColor="Gray" />
             <Button
-               VerticalOptions="Center"
-                Text="Login"
+                x:Name="Button1"
+                VerticalOptions="Center"
+                Text="Iniciar Session"
+                Clicked="Button1_Clicked"
                 TextColor="White"
                 BackgroundColor="Transparent"
                 BorderColor="ForestGreen"
                 BorderWidth="1.5"
                 CornerRadius="50"
+            ></Button>
+            <Button
+                x:Name="Button2"
+                Clicked="Button2_Clicked"
+                VerticalOptions="Center"
+                Text="Registra"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                
             ></Button>
         </StackLayout>
     </ContentPage.Content>
