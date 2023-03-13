@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.LoginView">
+             x:Class="TAREACASA.view.LoginView"
+             BackgroundColor="Black" >
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source=".." WidthRequest="180" HeightRequest="180"></Image>
+
+            <Entry Placeholder="Usuario" TextColor="White" PlaceholderColor="Gray" />
+            <Entry Placeholder="Contraseña" IsPassword="True" TextColor="White" PlaceholderColor="Gray" />
+            <Button
+               VerticalOptions="Center"
+                Text="Login"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                CornerRadius="50"
+            ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

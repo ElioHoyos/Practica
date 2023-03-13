@@ -1,12 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.RegistrarView">
+             x:Class="TAREACASA.view.RegistrarView"
+             BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button
+               VerticalOptions="Center"
+                Text="Registrar"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                CornerRadius="50"
+            ></Button>
+            <Label Text="Nombre:" TextColor="White" FontSize="20"/>
+            <Entry  TextColor="Black" BackgroundColor="White" />
+            
+            <Label Text="Apellido:" TextColor="White" FontSize="20"/>
+            <Entry TextColor="Black" BackgroundColor="White" />
+            
+            <Label Text="Usuario:" TextColor="White" FontSize="20"/>
+            <Entry TextColor="Black" BackgroundColor="White" />
+            
+            <Label Text="Contraseña:" TextColor="White" FontSize="20"/>
+            <Entry TextColor="Black" BackgroundColor="White" />
+            
+            <Label Text="Correo:" TextColor="White" FontSize="20"/>
+            <Entry TextColor="Black" BackgroundColor="White" />
+            
+            <Label Text="Direccion:" TextColor="White" FontSize="20"/>
+            <Entry TextColor="Black" BackgroundColor="White"  />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
