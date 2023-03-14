@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.LoginView">
+             x:Class="TAREACASA.view.LoginView" BackgroundImageSource="https://mobimg.b-cdn.net/v3/fetch/11/112b72fb1040e70c2caf0fc775ec57f6.jpeg">
+
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="Blue"></Grid>
             <Label HorizontalOptions="CenterAndExpand" Text="Login" TextColor="White" FontSize="60" HeightRequest="100"/>
-            
-            <Entry Placeholder="Usuario" TextColor="White" x:Name="txtUsuario"/>
-            <Entry Placeholder="Contraseña" IsPassword="True" x:Name="txtContraseña" TextColor="White"/>
-            <Button Text="Iniciar Sesion" TextColor="Aquamarine" Clicked="Button_Clicked"/>
-            <Button Text="Registrar" TextColor="Aqua" />
-            
-            <Label Text="" x:Name="lblresultado" TextColor="Red"/>
+            <Entry Placeholder="Usuario" PlaceholderColor="White" TextColor="White" x:Name="txtUsuario"/>
+            <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" x:Name="txtContraseña" TextColor="White"/>
+            <Button Text="Iniciar Sesion"  CornerRadius="60"  BackgroundColor="Gray" BorderWidth="2" BorderColor="White" TextColor="Black" Clicked="Button_Clicked"/>
+            <Button Text="Registrar"  CornerRadius="60" TextColor="Black" BackgroundColor="Gray" BorderWidth="2" BorderColor="White" x:Name="txtBoton2" Clicked="Boton2_Clicked"/>
+            <Label Text="" x:Name="lblresultado"  FontSize="25" TextColor="Red"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+    
+    
+    
+    

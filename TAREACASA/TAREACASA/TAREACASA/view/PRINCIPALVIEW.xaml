@@ -6,7 +6,7 @@
         <StackLayout>
             <Label HorizontalOptions="CenterAndExpand" Text="Menu Principal"  FontSize="25" TextColor="White"/>
             <Label Text="Bienvenido al sistema :D" FontSize="25" HeightRequest="200" Padding="70" TextColor="GreenYellow" />
-            <Button x:Name="Boton2" Text="Regresar a Inicio" TextColor="White" Clicked="Boton2_Clicked"/>
+            <Button x:Name="Boton2" Text="Regresar a Inicio" TextColor="Black" Clicked="Boton2_Clicked" BorderWidth="2" CornerRadius="60" BorderColor="Gray"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

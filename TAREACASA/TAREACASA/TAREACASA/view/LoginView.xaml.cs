@@ -32,5 +32,10 @@ namespace TAREACASA.view
                 lblresultado.Text = "La contraseña o Usuario son incorrectos";
             }  
         }
+
+        public async void Boton2_Clicked(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushModalAsync(new RegistrarView());
+        }
     }
 }

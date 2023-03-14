@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.RegistrarView">
+             x:Class="TAREACASA.view.RegistrarView" BackgroundImageSource="https://mobimg.b-cdn.net/v3/fetch/11/112b72fb1040e70c2caf0fc775ec57f6.jpeg">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Registrar Nuevo Usuario" TextColor="Aquamarine" FontSize="30" HeightRequest="70" Padding="40"/>
-            <Entry Placeholder="Nombre" TextColor="Gray"/>
-            <Entry Placeholder="Apellido" TextColor="Gray"/>
-            <Entry Placeholder="Edad" TextColor="Gray"/>
-            <Entry Placeholder="Usuario" TextColor="Gray"/>
-            <Entry Placeholder="Contraseña" TextColor="Gray"/>
-            <Button VerticalOptions="Center" Text="Registrar" TextColor="White" FontSize="15"/>
-            <Button Text="Registrar" TextColor="White"  FontSize="15" HeightRequest="200" Padding="30"/>
+            <Entry Placeholder="Nombre" TextColor="White"/>
+            <Entry Placeholder="Apellido" TextColor="White"/>
+            <Entry Placeholder="Edad" TextColor="White"/>
+            <Entry Placeholder="Usuario" TextColor="White"/>
+            <Entry Placeholder="Contraseña" TextColor="White"/>
+            <Button VerticalOptions="Center" Text="Registrar" x:Name="Regreso" CornerRadius="60" BorderWidth="2" BorderColor="Gray" Clicked="Regreso_Clicked" TextColor="Black" FontSize="15"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
