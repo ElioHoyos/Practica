@@ -27,19 +27,25 @@
                         FontSize="20" TextColor="#9196a6" Margin="25,20,0,35"/>
 
                     <!-- 3. Cards -->
-                    <Frame Grid.Row="3"  BackgroundColor="#3bc4e5" Grid.Column="0" Margin="25"  CornerRadius="20">
+                    <Frame Grid.Row="3"  BackgroundColor="#3bc4e5" Grid.Column="0" Margin="25"  CornerRadius="20" TranslationY="-35">
                         <Label TextColor="White" VerticalTextAlignment="Center">
                             <Label.FormattedText>
                                 <FormattedString>
-
                                     <Span Text="80K+&#10;" FontAttributes="Bold" FontSize="33"/>
                                     <Span Text="Libros de todos los gustos" FontSize="20"/>
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
+                        
                     </Frame>
+                    <Button Text="Ingresar"
+                            TranslationY="538" CornerRadius="12"
+                            TextColor="White" BackgroundColor="#3bc4e5" BorderColor="White" BorderWidth="3"
+                            HeightRequest="55"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"></Button>
 
-                    <Frame Grid.Row="3" Grid.Column="1" Margin="25"  BackgroundColor="#fe6954" CornerRadius="20">
+                    <Frame Grid.Row="3" Grid.Column="1" Margin="25"  BackgroundColor="#fe6954" CornerRadius="20" TranslationY="-35">
                         <Label TextColor="White" VerticalTextAlignment="Center">
                             <Label.FormattedText>
                                 <FormattedString>
@@ -49,7 +55,14 @@
                             </Label.FormattedText>
                         </Label>
                     </Frame>
-                    <Frame Grid.Row="4"  BackgroundColor="#3bc4e5" Grid.Column="0" Margin="25"  CornerRadius="20">
+                    <Button Text="Ingresar"
+                            TranslationY="420" CornerRadius="12" TranslationX="152"
+                            TextColor="White" BackgroundColor="#fe6954" BorderColor="White" BorderWidth="3"
+                            HeightRequest="55"
+                            VerticalOptions="EndAndExpand"
+                            HorizontalOptions="End"></Button>
+                    <!--Esto es la segunda fila de los card-->
+                    <Frame Grid.Row="4"  BackgroundColor="#3bc4e5" Grid.Column="0" Margin="25"  CornerRadius="20" TranslationY="-35">
                         <Label TextColor="White" VerticalTextAlignment="Center">
                             <Label.FormattedText>
                                 <FormattedString>
@@ -59,8 +72,14 @@
                             </Label.FormattedText>
                         </Label>
                     </Frame>
+                    <Button Text="Ingresar"
+                            TranslationY="760" CornerRadius="12"
+                            TextColor="White" BackgroundColor="#3bc4e5" BorderColor="White" BorderWidth="3"
+                            HeightRequest="55"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"></Button>
                     <!--Grid.Row="4"= Indica en que esta en pocicion vertical ocupando el 4 lugar-->
-                    <Frame Grid.Row="4" Grid.Column="1" Margin="25"  BackgroundColor="#fe6954" CornerRadius="20">
+                    <Frame Grid.Row="4" Grid.Column="1" Margin="25"  BackgroundColor="#fe6954" CornerRadius="20" TranslationY="-35">
                         <Label TextColor="White" VerticalTextAlignment="Center">
                             <Label.FormattedText>
                                 <FormattedString>
@@ -70,6 +89,12 @@
                             </Label.FormattedText>
                         </Label>
                     </Frame>
+                    <Button Text="Ingresar"
+                            TranslationY="645" CornerRadius="12" TranslationX="152"
+                            TextColor="White" BackgroundColor="#fe6954" BorderColor="White" BorderWidth="3"
+                            HeightRequest="55"
+                            VerticalOptions="EndAndExpand"
+                            HorizontalOptions="End"></Button>
 
                 </Grid>
 
