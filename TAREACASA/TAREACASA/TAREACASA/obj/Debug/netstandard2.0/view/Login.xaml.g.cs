@@ -8,21 +8,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TAREACASA.view.RegistrarView.xaml", "view/RegistrarView.xaml", typeof(global::TAREACASA.view.RegistrarView))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TAREACASA.view.Login.xaml", "view/Login.xaml", typeof(global::TAREACASA.view.Login))]
 
 namespace TAREACASA.view {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("view\\RegistrarView.xaml")]
-    public partial class RegistrarView : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("view\\Login.xaml")]
+    public partial class Login : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button Button1;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button Button2;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RegistrarView));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Login));
             Button1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Button1");
+            Button2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Button2");
         }
     }
 }

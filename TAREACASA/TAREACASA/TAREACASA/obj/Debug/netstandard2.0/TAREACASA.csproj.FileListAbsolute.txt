@@ -21,9 +21,6 @@ D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\bin\Debug\netstandard2.0\TAREAC
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.csproj.AssemblyReference.cache
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.GeneratedMSBuildEditorConfig.editorconfig
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\LoginView.xaml.g.cs
-D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\PRINCIPALVIEW.xaml.g.cs
-D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\RegistrarView.xaml.g.cs
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.AssemblyInfoInputs.cache
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.AssemblyInfo.cs
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.csproj.CoreCompileInputs.cache
@@ -32,3 +29,6 @@ D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREAC
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\refint\TAREACASA.dll
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\TAREACASA.pdb
 D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\ref\TAREACASA.dll
+D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\PRINCIPAL.xaml.g.cs
+D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\Login.xaml.g.cs
+D:\github\Practica\TAREACASA\TAREACASA\TAREACASA\obj\Debug\netstandard2.0\view\Registrar.xaml.g.cs

@@ -11,7 +11,7 @@ namespace TAREACASA
         {
             InitializeComponent();
 
-            MainPage = new LoginView();
+            MainPage = new Login();
         }
 
         protected override void OnStart()

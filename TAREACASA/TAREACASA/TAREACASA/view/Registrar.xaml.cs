@@ -10,15 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace TAREACASA.view
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class RegistrarView : ContentPage
+    public partial class Registrar : ContentPage
     {
-        public RegistrarView()
+        public Registrar()
         {
             InitializeComponent();
         }
         public async void Button1_Clicked(object sender, EventArgs e)
         {
-            await Application.Current.MainPage.Navigation.PushModalAsync(new PRINCIPALVIEW());
+            await Application.Current.MainPage.Navigation.PushModalAsync(new Principal());
         }
     }
 }

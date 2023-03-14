@@ -10,19 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace TAREACASA.view
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginView : ContentPage
+    public partial class Login : ContentPage
     {
-        public LoginView()
+        public Login()
         {
             InitializeComponent();
         }
         public async void Button1_Clicked(object sender, EventArgs e)
         {
-            await Application.Current.MainPage.Navigation.PushModalAsync(new PRINCIPALVIEW());
+            await Application.Current.MainPage.Navigation.PushModalAsync(new Principal());
         }
         public async void Button2_Clicked(object sender, EventArgs e)
         {
-            await Application.Current.MainPage.Navigation.PushModalAsync(new RegistrarView());        
+            await Application.Current.MainPage.Navigation.PushModalAsync(new Registrar());
         }
     }
 }

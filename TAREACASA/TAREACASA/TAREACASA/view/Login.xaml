@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TAREACASA.view.RegistrarView"
-             BackgroundImageSource="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
+             x:Class="TAREACASA.view.Login"
+             BackgroundImageSource="https://www.teahub.io/photos/full/162-1621037_fondos-de-pantalla-paisajes.jpg">
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="#2196F3" Padding="24">
@@ -16,7 +16,7 @@
             </Grid>
             <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto">
                 <StackLayout Grid.Row="4">
-                    <Label Text="Registrarse" TextColor="White"   FontSize="25" 
+                    <Label Text="LOGIN" TextColor="White"   FontSize="25" 
                            HorizontalTextAlignment="Center"
                            FontAttributes="Bold"/>
 
@@ -47,42 +47,9 @@
                                CornerRadius="50">
                             <Entry TextColor="White"
                                    FontSize="18"
-                                   Placeholder="Correo"
-                                   PlaceholderColor="White"/>
-                        </Frame>
-
-                    </Frame>
-                    <Frame OutlineColor="Wheat" BackgroundColor="Transparent"
-                           Margin="15"
-                           Padding="0"
-                           CornerRadius="50">
-
-                        <Frame OutlineColor="#2196F3" BackgroundColor="Transparent"
-                               Margin="1" Padding="25,0,25,0" 
-                               HeightRequest="60"
-                               CornerRadius="50">
-                            <Entry TextColor="White"
-                                   FontSize="18"
                                    Placeholder="Contraseña"
                                    IsPassword="True"
                                    PlaceholderColor="White"/>
-                        </Frame>
-
-                    </Frame>
-                    <Frame OutlineColor="Wheat" BackgroundColor="Transparent"
-                           Margin="15"
-                           Padding="0"
-                           CornerRadius="50">
-
-                        <Frame OutlineColor="#2196F3" BackgroundColor="Transparent"
-                               Margin="1" Padding="25,0,25,0" 
-                               HeightRequest="60"
-                               CornerRadius="50">
-                            <Entry TextColor="White"
-                                   FontSize="18"
-                                   Placeholder="Validar Contraseña"
-                                   PlaceholderColor="White"
-                                   IsPassword="True"/>
                         </Frame>
 
                     </Frame>
@@ -90,14 +57,24 @@
             </Grid>
             <Button VerticalOptions="CenterAndExpand" TextColor="White"
                 x:Name="Button1" Clicked="Button1_Clicked"
-                HorizontalOptions="Center"
-                TranslationY="12"
-                
-                Text="Registrarse"
+                HorizontalOptions="Start"
+                TranslationY="192"
+                TranslationX="10"
+                Text="Login"
                 CornerRadius="15"
                 BorderColor="#2196F3"
                 BorderWidth="2"
                 BackgroundColor="Transparent"/>
+
+            <Button Text="Registrarse" TextColor="White"
+                    x:Name="Button2" Clicked="Button2_Clicked"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="End"
+                    TranslationX="-10"  CornerRadius="15"
+                    BorderColor="#2196F3"
+                    BorderWidth="2"
+                    BackgroundColor="Transparent"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TAREACASA.view.PRINCIPALVIEW.xaml", "view/PRINCIPALVIEW.xaml", typeof(global::TAREACASA.view.PRINCIPALVIEW))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TAREACASA.view.Principal.xaml", "view/Principal.xaml", typeof(global::TAREACASA.view.Principal))]
 
 namespace TAREACASA.view {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("view\\PRINCIPALVIEW.xaml")]
-    public partial class PRINCIPALVIEW : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("view\\Principal.xaml")]
+    public partial class Principal : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PRINCIPALVIEW));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Principal));
         }
     }
 }

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TAREACASA.view
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PRINCIPALVIEW : ContentPage
+    public partial class Principal : ContentPage
     {
-        public PRINCIPALVIEW()
+        public Principal()
         {
             InitializeComponent();
         }
